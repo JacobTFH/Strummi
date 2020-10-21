@@ -34,11 +34,11 @@ class KarplusStrong
 
 		int setup(float fs, float minFrequency, float initialFrequency);
 		void cleanup();
-		
+
 		float process(float input);
 
 		void process(float* input, float* output, unsigned int length);
-		
+
 		void setFrequency(float frequency);
 
 #ifdef KS_CONSTANT_LOWPASS
